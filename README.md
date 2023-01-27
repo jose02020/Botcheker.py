@@ -1,0 +1,2 @@
+# Botcheker.py
+Bot
