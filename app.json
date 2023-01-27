@@ -1,0 +1,34 @@
+  {
+  "env": {
+    "PREFIX": {
+      "description": "BOT CMD PREFIX Example !start /start .start",
+      "value": "/!."
+    },
+    "TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": "5803972339:AAEwiadZ8Vz9nwLZoxtgbrjZvE6AY80g2bo",
+      "required": true
+    },
+    "OWNER": {
+      "description": "Owner user_id.",
+      "value": "5511060759",
+      "required": true
+    },
+    "ANTISPAM": {
+      "description": "Antispam bot limit bot sleep for how many time in cmd spam",
+      "value": "10",
+      "required": true
+    },
+    "BLACKLISTED": {
+      "description": "type your url where hosted api.php",
+      "value": "559558 510805 434256 524499",
+      "required": true
+    }
+  },
+  "stack": "heroku-22",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
